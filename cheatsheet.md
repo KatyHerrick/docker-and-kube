@@ -23,6 +23,8 @@
 ## Removing Containers
 `docker system prune` - Removes all stopped containers AND the build cache.
 
+---
+
 ## Making Images
 In a directory with a Dockerfile:
 `docker build .` - Builds an image using the instructions in the Dockerfile.
