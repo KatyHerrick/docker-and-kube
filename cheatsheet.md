@@ -5,6 +5,8 @@
 
 `docker run [image_name] [alternate cmd]` - Runs a container but overrides the default starting command with the alternate cmd.
 
+`docker run -p [local port]:[container_port] [image_name]` - Runs a container, mapping incoming requests from a local port to a container port
+
 ## Stopping Containers
 `docker stop [container_id]` - Sends a SIGTERM to the running process, gracefully shutting it down. If the process doesn't stop after 10 seconds, `docker kill` is sent.
 
