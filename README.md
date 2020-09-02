@@ -5,10 +5,10 @@ A collection of projects from Stephen Grider's Udemy Course: [Docker and Kuberne
 
 Cheatsheet of Docker CLI commands to manage containers is available at [cheetsheet.md](./cheetsheet.md).
 
-
 ## Projects
 
 | Project | Topics/Takeaways |
 | ------ | ------ |
 | redis-image | simple Dockerfile commands |
-| simpleweb | more Dockerfile commands, port forwarding |
+| simpleweb | more Dockerfile commands, build caching tips, port forwarding |
+| visits | docker-compose |

@@ -39,3 +39,16 @@ In a directory with a Dockerfile:
 
 `docker build -t [my_docker_id]/[project_name]:[version] .` - Build and tag an image with a human-friendly name. `version` can be `latest`.
 
+---
+
+## Docker Compose
+
+`docker-compose up` - Runs an instance of all images in the yml file and creates a network for them to communicate through.
+
+`docker-compose up --build` - Builds and runs all images in the yml file and creates a network for them to communicate through.
+
+`docker-compose up -d` - Launches containers in the background.
+
+`docker-compose down` - Stops containers.
+
+`docker-compose ps` - Lists running containers from the yml file in the working directory.

@@ -1,0 +1,17 @@
+# Version of docker-compose we're using
+version: '3'
+
+# List of types of containers and instructions
+# on how to build and map ports of each.
+services:
+  redis-server:
+    # Build from Docker Hub base image
+    image: 'redis'
+  node-app:
+    # Policy for restarting on crash
+    restart: always
+    # Build context for Dockerfile
+    build: .
+    # Array of port mappings
+    ports:
+      - "4001:8081"
